@@ -9,40 +9,38 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">Latitude</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="comparison.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="data.html">Data</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Plots
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="max_temp_plot.html">Max Temperature</a>
-                <a class="dropdown-item" href="humidity_plot.html">Humidity</a>
-                <a class="dropdown-item" href="cloudiness_plot.html">Cloudiness</a>
-                <a class="dropdown-item" href="wind_speed_plot.html">Wind Speed</a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </nav>
-  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+    <a class="navbar-brand" href="index.html">Latitude</a>
+    <div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="max_temp_plot.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity_plot.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness_plot.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind_speed_plot.html">Wind Speed</a>
+            </div>
+          </li>
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <div class="container page-background">
         <div class="row">
-            <main class="col-md-8">
+            <main class="col-xl-8">
                     <article class="post">
                         <h1 class="header">Latitude vs. Wind Speed</h1>
                         <img class="content-image" src="assets/images/Fig4.png">
@@ -50,7 +48,7 @@
                         </p>
                     </article>
             </main>
-            <aside class="col-md-4">
+            <aside class="col-xl-4">
                 <h1 class="header">Visualizations</h1>
                 <div class="container">
                     <div class="row">

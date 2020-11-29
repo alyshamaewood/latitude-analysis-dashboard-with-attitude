@@ -1,6 +1,7 @@
 .header{
     color: rgb(10, 185, 185);
-    font-size: large;
+    font-size: xx-large;
+    font: bolder;
 }
 
 
@@ -8,18 +9,36 @@
     background-color: rgb(10, 185, 185);
     padding: 10px;
 }
-/*.navbar{
-    background-color: rgb(10, 185, 185);
-    padding: 10px;
-}*/
 
 .landing-viz{
     height: 200px;
     width: 200px;
 }
 
+.page-background{
+    background-color: rgb(232, 240, 235);
+}
+
 .content-image{
     height: 300px;
     width: 300px;
     float: left;
+}
+.comparison-viz{
+    height: 400px;
+    width: 400px;
+}
+@media (max-width: 900px) {
+    nav {
+        background-color: rgb(10, 185, 185);
+    }
+
+    .landing-viz{
+        height: 300px;
+        width: 300px;
+    }
+
+    .page-background{
+        background-color: white;
+    }
 }
